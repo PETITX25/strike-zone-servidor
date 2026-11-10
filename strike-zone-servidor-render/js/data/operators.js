@@ -1,0 +1,10 @@
+// Operadores con habilidad táctica (cooldown en s). Colores para el modelo procedural.
+export const OPERATORS = {
+  halcon:   { id: 'halcon', name: 'HALCÓN', role: 'Reconocimiento', ability: 'scan', abilityName: 'Pulso radar', desc: 'Lanza un pulso que revela a los enemigos en 40 m durante 6 s.', cooldown: 30, colors: { primary: 0x3d4a3a, secondary: 0x22261f, accent: 0xd97a2b, skin: 0xc69a7a } },
+  muro:     { id: 'muro', name: 'MURO', role: 'Defensa', ability: 'shield', abilityName: 'Barrera desplegable', desc: 'Despliega un escudo de energía frontal que bloquea balas durante 8 s.', cooldown: 35, colors: { primary: 0x2c3440, secondary: 0x15191f, accent: 0x3aa0ff, skin: 0x8d5a3b } },
+  fantasma: { id: 'fantasma', name: 'FANTASMA', role: 'Asalto', ability: 'dash', abilityName: 'Impulso fantasma', desc: 'Impulso rápido hacia delante con camuflaje óptico breve.', cooldown: 18, colors: { primary: 0x1e1e24, secondary: 0x0c0c10, accent: 0xb85cff, skin: 0xe0b896 } },
+  medica:   { id: 'medica', name: 'VALQUIRIA', role: 'Apoyo', ability: 'heal', abilityName: 'Dron sanador', desc: 'Despliega un dron que cura 40 de vida a ti y a aliados cercanos en 5 s.', cooldown: 40, colors: { primary: 0x5a5e55, secondary: 0x2b2d29, accent: 0x4fd46b, skin: 0xd8a888 } },
+  trueno:   { id: 'trueno', name: 'TRUENO', role: 'Demolición', ability: 'strike', abilityName: 'Bombardeo', desc: 'Marca un punto y lanza 3 explosivos tras 2 s.', cooldown: 45, colors: { primary: 0x5b4a36, secondary: 0x2e251a, accent: 0xff4a2e, skin: 0xa8765a } },
+};
+export const OPERATOR_IDS = Object.keys(OPERATORS);
+export const BOT_NAMES = ['Lobo_77', 'xXSniperXx', 'Coyote', 'NeoCaza', 'Tormenta', 'Rayo_Rojo', 'ElPana', 'Kaiser', 'Vibora', 'Draco', 'Sombra_MX', 'Toro', 'Nova', 'Fénix', 'Cuervo', 'Titán', 'Pantera', 'GatoNinja', 'Zeta9', 'Bala_Perdida', 'Comandante', 'Halcón_Negro', 'Matador', 'Chacal', 'Lince', 'Orión', 'Furia', 'Puma', 'Vaquero', 'Cobra_X', 'Relámpago', 'Jaguar', 'ElTigre', 'Sargento', 'Bravo_6', 'Delta', 'Eco', 'Gárgola', 'Mamba', 'Escorpión', 'Rex', 'Magnum', 'Colibrí', 'Ciclón', 'Pirata', 'Atlas', 'Bruma', 'Cazador', 'Dinamita', 'Espectro'];
