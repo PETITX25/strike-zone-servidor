@@ -1,0 +1,12 @@
+{
+  "name": "strike-zone-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Servidor multijugador de Strike Zone (cero dependencias)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/loadtest.js"
+  }
+}
